@@ -34,6 +34,7 @@
       /* Style inputs */
       input[type="text"],
       [type="email"],
+      [type="tel"],
       select,
       textarea {
         width: 100%;
@@ -126,6 +127,10 @@
         font-weight: 400;
         word-wrap: break-word;
       }
+      /* footer{
+        margin-top: 10px;
+        padding-top: 10px;
+      } */
     </style>
   </head>
   <body>
@@ -150,7 +155,7 @@
     <!-- Contact -->
     <div class="container">
       <div style="text-align: center; margin-top: 50px;">
-        <h2>Contact Us</h2>
+        <h1>Contact Us</h1>
         <p>Berikan Kritik dan Saran Anda</p>
       </div>
       <div class="row">
@@ -165,6 +170,15 @@
               id="fname"
               name="Nama"
               placeholder="Masukkan Nama Anda"
+              required
+            />
+            <label for="gname">No Telp</label>
+            <input
+              type="tel"
+              id="gname"
+              name="No. Telp"
+              placeholder="Masukkan No. Telp Anda"
+              required
             />
             <label for="lname">Email</label>
             <input
@@ -172,6 +186,7 @@
               id="lname"
               name="Email"
               placeholder="Email Anda"
+              required
             />
             <label for="subject">Pesan</label>
             <textarea
@@ -179,6 +194,7 @@
               name="Pesan"
               placeholder="Berikan Kritik dan Saran Anda"
               style="height: 170px"
+              required
             ></textarea>
             <input type="submit" value="Submit" />
           </form>
@@ -186,7 +202,7 @@
       </div>
     </div>
     <!-- Footer -->
-    <footer class="w3-xlarge" style="background-color: #ffe4fb">
+    <footer class="w3-xlarge" style="background-color: #ffe4fb;">
       <img
         src="Image/logo.png"
         alt=""
@@ -197,10 +213,11 @@
         style="text-decoration: none"
       >
         <!-- <img src="Image/WA.png" alt="" style="margin-top: -195px; margin-left: -30px;"> -->
+        
         <div
           style="
-            left: 422px;
-            top: 680px;
+            margin-left: 422px;
+            margin-top: -315px;
             position: absolute;
             color: black;
             font-size: 20px;
@@ -213,8 +230,8 @@
         </div>
         <div
         style="
-            left: 422px;
-            top: 708px;
+            margin-left: 422px;
+            margin-top: -285px;
             position: absolute;
             color: black;
             font-size: 20px;
@@ -230,11 +247,10 @@
         href="https://tokopedia.link/OpqEqIQ7pEb"
         style="text-decoration: none"
         >
-        <!-- <img src="Image/Tokopedia.png" alt="" width="35px" style="margin-left: -39px; margin-top: -50px;"> -->
         <div
           style="
-            left: 422px;
-            top: 753px;
+            margin-left: 422px;
+            margin-top: -245px;
             position: absolute;
             color: black;
             font-size: 20px;
@@ -247,8 +263,8 @@
         </div>
         <div
           style="
-            left: 422px;
-            top: 780px;
+            margin-left: 422px;
+            margin-top: -215px;
             position: absolute;
             color: black;
             font-size: 20px;
@@ -266,8 +282,8 @@
       >
         <div
           style="
-            left: 422px;
-            top: 865px;
+            margin-left: 422px;
+            margin-top: -145px;
             position: absolute;
             color: black;
             font-size: 20px;
@@ -280,8 +296,8 @@
         </div>
         <div
           style="
-            left: 422px;
-            top: 835px;
+            margin-left: 422px;
+            margin-top: -175px;
             position: absolute;
             color: black;
             font-size: 20px;
@@ -295,8 +311,8 @@
       </a>
       <div
         style="
-          left: 738px;
-          top: 680px;
+          margin-left: 738px;
+          margin-top: -315px;
           position: absolute;
           color: black;
           font-size: 20px;
@@ -309,8 +325,8 @@
       </div>
       <div
         style="
-          left: 738px;
-          top: 708px;
+          margin-left: 738px;
+          margin-top: -285px;
           position: absolute;
           color: black;
           font-size: 20px;
